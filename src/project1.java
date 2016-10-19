@@ -157,12 +157,12 @@ public class project1 {
 	public static void derivative(char myList[], char myList1[]) {
 		int a = 0;
 		char[] myList2 = new char[myList.length + 1];
-		for (int i = 0; i < myList.length; i++) {
+		//for (int i = 0; i < myList.length; i++) {
 			for (int j = 0; j < myList.length; j++) {
 				myList2[j] = myList[j];
 			}
 			myList2[myList2.length - 1] = '+';
-		}
+		//}
 		for (int k = 0; k < myList.length + 1; k++) {
 			if (myList2[k] == '+') {
 				int sum = 0;
