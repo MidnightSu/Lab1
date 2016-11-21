@@ -3,9 +3,9 @@ package lab.lab;
 import java.util.Scanner;
 
 /**
- * 类描述.
- * 
- * @author Meng Kuang
+ * 类描述.lab5
+ *
+ * @author
  *
  */
 public class OurProject {
@@ -43,9 +43,7 @@ public class OurProject {
     scanner.close();
   }
 
-  /**
-   * judge javavdoc. 判断
-   */
+
   public static int judge(final char[] myList) {
     int judgetag = 0;
     final char temp = myList[0];
@@ -216,7 +214,7 @@ public class OurProject {
         abc = k;
       }
     }
-    
+
     System.out.println(myList);
   }
 }
