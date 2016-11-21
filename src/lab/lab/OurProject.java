@@ -3,7 +3,7 @@ package lab.lab;
 import java.util.Scanner;
 
 /**
- * 类描述.lab5
+ * 类描述.lab5w
  *
  * @author
  *
